@@ -1,6 +1,6 @@
-// See https://aka.ms/new-console-template for more information
-
 using ChainOfResponsibility;
+
+Console.WriteLine("Chain of Responsibility Behavioural Design Pattern example\n");
 
 Console.Write("Enter an integer between 1 and 100: ");
 if (int.TryParse(Console.ReadLine(), out int number) && number >= 1 && number <= 100)
